@@ -3,15 +3,19 @@
 def PalinArray(arr ,n):
     # Code here
     count=0
-    for i in range (0,n):
+    for i in range (n):
         a=str(arr[i])
-        if (str(arr[i])==a[::-1]):
+        if a==a[::-1]:
             count+=1
-    if(count==n):
+    if (count==n):
         return 1
-    else:
+    else :
         return 0
-
+        
+        
+    
+        
+    
 
 
 #{ 
