@@ -5,10 +5,11 @@ from typing import List
 class Solution:
     def isPerfect(self, n : int, arr : List[int]) -> bool:
         # code here
-        if arr==arr[::-1]:
-            return 1
-        else:
+       if arr == arr[::-1]:
+           return 1
+       else:
             return 0
+       
         
         
 
